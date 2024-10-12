@@ -1,4 +1,4 @@
 AddDefaultCharset utf-8
 RewriteEngine  on
-RewriteCond    %{HTTP_HOST} ^(jejunu-mathedu.github.io/oh/)
+RewriteCond    %{HTTP_HOST} ^(jejunu-mathedu\.github\.io/oh/)
 RewriteRule    ^(.*)$ https://imsc.uni-graz.at/oh/$1 [R=301,L]
